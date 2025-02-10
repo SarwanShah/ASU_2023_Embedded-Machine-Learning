@@ -1,6 +1,6 @@
-# 🌬️ Wind Speed Estimation on an Embedded System using Closely Spaced Microphones
+# Wind Speed Estimation on an Embedded System using Closely Spaced Microphones
 
-## 📌 Project Overview
+##  Project Overview
 This project was developed under the **CEN 598: Embedded Machine Learning** course at **Arizona State University** during Fall 2023. The goal was to estimate wind speed using **audio data** from two closely spaced microphones on an **ESP32** embedded system, leveraging machine learning to analyze **wind noise** correlation.
 
 **REPORT**: [Final Project Report](./Final%20Project%20Report.pdf)  
@@ -8,14 +8,14 @@ This project was developed under the **CEN 598: Embedded Machine Learning** cour
 
 ---
 
-## **🌟 Motivation**
+## **Motivation**
 - **Meteorological Data Sparsity**: Accurate weather predictions require denser data networks, which current **Automatic Weather Stations (AWS)** struggle to provide at scale due to cost and infrastructure.
 - **Low-Cost Wind Estimation**: This project explores the feasibility of **deploying microphone-based wind speed sensors** in scalable, cost-effective solutions.
 - **Future Applications**: Enabling weather-sensitive devices like smartphones or cars to include wind estimation as a feature.
 
 ---
 
-## **🛠 Features**
+## **Features**
 - **Hardware Setup**:
   - **ESP32 Microcontroller** with **I2S peripherals** for audio data processing.
   - **INMP441 MEMs Microphones** capturing wind noise across two channels.
@@ -32,7 +32,7 @@ This project was developed under the **CEN 598: Embedded Machine Learning** cour
 
 ---
 
-## **📊 Implementation Highlights**
+## ** Implementation Highlights**
 ### ➤ **Data Collection**
 - Samples were gathered using a controlled fan and multiple directions to explore classification potential.
 - ESP32 managed stereo microphone inputs, streamed to a PC via serial communication.
@@ -53,7 +53,7 @@ This project was developed under the **CEN 598: Embedded Machine Learning** cour
 
 ---
 
-## **📈 Results**
+## **Results**
 - The model showed signs of learning from frequency differences between spectrograms at various wind speeds.
 - However, results were inconclusive without further data and experimentation.
   
