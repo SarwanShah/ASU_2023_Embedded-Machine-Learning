@@ -1,7 +1,7 @@
 # 🌬️ Wind Speed Estimation on an Embedded System using Closely Spaced Microphones
 
 ## 📌 Project Overview
-This project was developed under the **CEN 598: Embedded Machine Learning** course at **Arizona State University**, conducted in the **Embedded Machine Intelligence Lab (EMIL)** under **Professor Hassan Ghasemzadeh**. The goal was to estimate wind speed using **audio data** from two closely spaced microphones on an **ESP32** embedded system, leveraging machine learning to analyze **wind noise** correlation.
+This project was developed under the **CEN 598: Embedded Machine Learning** course at **Arizona State University** during Fall 2023. The goal was to estimate wind speed using **audio data** from two closely spaced microphones on an **ESP32** embedded system, leveraging machine learning to analyze **wind noise** correlation.
 
 **REPORT**: [Final Project Report](./Final%20Project%20Report.pdf)  
 **PRESENTATION**: [Project Presentation](./CEN598-FinalProjectPresentation-SarwanShah.pptx)
