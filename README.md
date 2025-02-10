@@ -59,15 +59,9 @@ This project was developed under the **CEN 598: Embedded Machine Learning** cour
   
 ---
 
-## **🔮 Future Work**
+## **Future Work**
 - Improve data collection efficiency and increase dataset size.
 - Experiment with feature extraction techniques to enhance model learning.
 - Explore classification tasks using directional microphone data.
   
 ---
-
-## **📥 How to Use**
-1. Connect the **ESP32** with microphones and sensors as per the provided circuit configuration.
-2. Run the **data collection script** to gather samples.
-3. Train the machine learning model using the provided **Colab notebook**.
-4. Evaluate the model with the generated test data.
